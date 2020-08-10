@@ -1,0 +1,52 @@
+
+.container {
+    
+    width: 100%;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.container-1 {
+    border: black solid 1px;
+  background-color: blueviolet;
+    display:flex;
+    justify-content: center;
+
+}
+.text{
+    border: black solid 1px;
+    margin: 2rem 5rem 1rem 5rem;
+    text-align: center;
+
+}
+.mainbox{
+    border: solid black 1px;
+  display: flex;
+  margin: 2rem;
+
+}
+.size{
+    width: 28rem;
+    height: 2.5rem;
+}
+.size-name{
+    width: 13.6rem;
+    height: 2.5rem;
+}
+.box-left{
+    
+flex: 1 0 60%;
+margin: 1rem;
+}
+
+
+.box-right{
+   
+    flex: 1 0 30%;
+    margin: 1rem;
+    
+
+}
+
+img{
+    border-radius: 1%;
+}
